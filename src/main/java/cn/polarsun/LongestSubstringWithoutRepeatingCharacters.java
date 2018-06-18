@@ -13,7 +13,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
 			int index = s.charAt(i);
 			if (alpha[index] == -1) {
 				ans = Math.max(ans, i - st);
-				// System.out.print(-1+" ");
 			} else {
 				st = Math.max(st, alpha[index]);
 				ans = Math.max(ans, i - st);
