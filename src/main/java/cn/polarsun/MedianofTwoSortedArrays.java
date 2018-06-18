@@ -6,14 +6,13 @@ public class MedianofTwoSortedArrays {
 		int l2 = nums2.length;
 		int tol = l1 + l2;
 		if (tol == 0) {
-			return 0.0;
+			return 0;
 		}
 		int[] ans = new int[tol / 2 + 5];
 		int k = 0, i = 0, j = 0;
 		while (i < l1 && j < l2 && k <= tol / 2) {
 			if (nums1[i] <= nums2[j]) {
 				ans[k++] = nums1[i++];
-				System.out.println(ans[k - 1]);
 			} else {
 				ans[k++] = nums2[j++];
 			}
