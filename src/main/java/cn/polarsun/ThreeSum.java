@@ -35,7 +35,6 @@ public class ThreeSum {
 				} else {
 					right--;
 				}
-
 			}
 		}
 		return ans;
