@@ -1,24 +1,30 @@
 //package cn.polarsun;
 //
 //public class ValidateBinarySearchTree {
-//	/*
+//	/**
 //	 * Definition for a binary tree node. public class TreeNode { int val; TreeNode
 //	 * left; TreeNode right; TreeNode(int x) { val = x; } }
 //	 */
-//	TreeNode pre;
+//	int min = Integer.MIN_VALUE;
+//	boolean flag = true;
+//	int k = 1;
 //
 //	public boolean isValidBST(TreeNode root) {
-//		if (root == null) {
-//			return true;
-//		}
-//		if (!isValidBST(root.left)) {
-//			return false;
-//		}
-//		if (pre != null && pre.val >= root.val) {
-//			return false;
-//		}
-//		pre = root;
-//		return isValidBST(root.right);
+//		dfs(root);
+//		return flag;
+//	}
 //
+//	void dfs(TreeNode root) {
+//		if (root == null) {
+//			return;
+//		}
+//		dfs(root.left);
+//		if (k == 1) {
+//			k++;
+//		} else if (min >= root.val) {
+//			flag = false;
+//		}
+//		min = root.val;
+//		dfs(root.right);
 //	}
 //}
