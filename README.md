@@ -1,20 +1,21 @@
-﻿## 刷题专栏
-本科的时候的刷题，常用的csdn来记录，链接是 https://blog.csdn.net/qiuxueming_csdn  
+﻿# 刷题专栏
 
-现在，主要用来记录自己后来的刷题记录
+该项目主要用来记录自己的是做题目的记录，以前刷题，常用的[csdn](<https://blog.csdn.net/qiuxueming_csdn>)，目前已经转到github
 
 ## 语言
-C/C++ \
-JAVA \
-Python 
-## 目录组织
-   采用了maven的开发模式，具体的src目录下就对应的是java的程序\
-   C/C++，新建了C++文件夹
 
-## 题目来源：
-1. leetcode 上  Top-100-Liked-Questions \
-具体的链接：https://leetcode.com/problemset/top-100-liked-questions/ \
-代码位置 src/main/java/cn/polarsun/ 
-2. 2019 google kickstart \
-链接 https://codingcompetitions.withgoogle.com/kickstart/archive/2019 \
-代码位置：c++\
+C/C++
+JAVA
+Python
+
+## 题目来源
+
+1. leetcode[题目链接](<https://leetcode.com/problemset/top-100-liked-questions/>)
+代码位置java版 src/main/java/cn/polarsun/
+代码位置c++版，c++/leetcode
+
+2. 2019 google kickstart [题目链接](<https://codingcompetitions.withgoogle.com/kickstart/archive/2019>)
+代码位置：c++/kickstart
+
+3. 剑指offer [题目链接](<https://www.nowcoder.com/ta/coding-interviews>)
+代码位置：c++/jianzhioffer
